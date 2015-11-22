@@ -36,6 +36,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## cacheSolve operates on a cacheable matrix and returns the inverse matrix if the 
 ## inverse has been cached in the cacheable matrix, otherwise solves for the 
 ## inverse and stores the inverse matrix into the cacheable matrix for future access.
+## as per assignment instructions, no checks for invertibility have been implemented
 
 cacheSolve <- function(x, ...) {
   
